@@ -1,0 +1,198 @@
+ * {
+	margin:0;
+	padding:0
+}
+html {
+	background:url() no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	font-weight:600;
+	font-family:'Lato'
+}
+.top {
+	top:5px
+}
+.bottom {
+	bottom:5px
+}
+.left {
+	position:fixed;
+	left:5px
+}
+.right {
+	position:fixed;
+	right:5px
+}
+a {
+	font-size:18px;
+	color:#faf0e6;
+	text-decoration:none
+}
+a:hover {
+	color:orange
+}
+h1 {
+	font-size:60px;
+	color:white;
+	text-shadow:grey .1em .1em .2em
+}
+.show {
+	-webkit-background-clip:border-box;
+	-webkit-background-origin:padding-box;
+	-webkit-background-size:auto;
+	background-attachment:scroll;
+	background-clip:border-box;
+	background-color:rgba(0, 0, 0, 0.6);
+	background-image:none;
+	background-origin:padding-box;
+	background-position:0 0;
+	background-size:auto
+}
+input[type=text] {
+	-webkit-appearance:none;
+	-webkit-border-image:none;
+	-webkit-box-shadow:none;
+	-webkit-rtl-ordering:logical;
+	-webkit-transition-delay:0s;
+	-webkit-transition-duration:0s;
+	-webkit-transition-property:none;
+	-webkit-transition-timing-function:cubic-bezier(0.25, 0.1, 0.25, 1);
+	-webkit-user-select:text;
+	background-color:white;
+	border-bottom-color:#d9d9d9;
+	border-bottom-left-radius:1px;
+	border-bottom-right-radius:1px;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-color:#d9d9d9;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#d9d9d9;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:silver;
+	border-top-left-radius:1px;
+	border-top-right-radius:1px;
+	border-top-style:solid;
+	border-top-width:1px;
+	box-shadow:none;
+	color:#555;
+	cursor:auto;
+	display:inline-block;
+	float:none;
+	font-family:'Lato';
+	font-size:13px;
+	font-weight:normal;
+	height:20px;
+	letter-spacing:normal;
+	line-height:20px;
+	margin-bottom:10px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:11px;
+	min-height:1px;
+	padding-bottom:4px;
+	padding-left:8px;
+	padding-right:8px;
+	padding-top:4px;
+	text-align:start;
+	text-indent:0;
+	text-shadow:none;
+	text-transform:none;
+	vertical-align:middle;
+	width:286px;
+	word-spacing:0
+}
+input[type=submit] {
+	-webkit-appearance:none;
+	-webkit-background-clip:padding-box;
+	-webkit-border-image:none;
+	-webkit-box-align:center;
+	-webkit-box-shadow:none;
+	-webkit-rtl-ordering:logical;
+	-webkit-user-select:text;
+	background-clip:padding-box;
+	background-color:#63c;
+	background-repeat:repeat-x;
+	border-bottom-color:#63c;
+	border-bottom-left-radius:2px;
+	border-bottom-right-radius:2px;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-color:#63c;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#63c;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#63c;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+	border-top-style:solid;
+	border-top-width:1px;
+	box-shadow:none;
+	box-sizing:border-box;
+	color:white;
+	cursor:pointer;
+	display:inline-block;
+	font-family:'Lota';
+	font-size:13px;
+	font-weight:bold;
+	height:30px;
+	letter-spacing:normal;
+	line-height:20px;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	padding-bottom:4px;
+	padding-left:12px;
+	padding-right:12px;
+	padding-top:4px;
+	position:relative;
+	text-align:center;
+	text-indent:0;
+	text-shadow:rgba(0, 0, 0, 0.0980392) 0 1px 0;
+	text-transform:none;
+	vertical-align:middle;
+	white-space:nowrap;
+	width:69px;
+	word-spacing:0
+}
+p {
+	font-size:18px;
+	color:white;
+	text-shadow:grey .1em .1em .2em
+}
+.welcome {
+	padding-top:150px
+}
+
+.image { 
+   position: relative; 
+}
+
+h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+h2 span { 
+   color: white; 
+   font-family:'Lato'
+   font-size:22px;
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 5px; 
+}
+
+#yt {
+	position: absolute;
+	left: -10000px;	
+	top: -10000px;
+}
